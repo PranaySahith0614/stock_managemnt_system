@@ -1,0 +1,46 @@
+/* MAIN HOME PAGE – PROFESSIONAL DASHBOARD */
+body{
+margin:0;
+font-family:'Segoe UI',Arial;
+background:linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+min-height:100vh;
+color:white;
+text-align:center;
+}
+
+
+h1{
+margin-top:60px;
+font-size:36px;
+letter-spacing:1px;
+}
+
+
+.menu{
+margin-top:50px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+
+.menu a{
+width:260px;
+margin:12px;
+padding:14px;
+background:#ffffff;
+color:#203a43;
+text-decoration:none;
+border-radius:10px;
+font-size:18px;
+font-weight:600;
+box-shadow:0 6px 15px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+
+.menu a:hover{
+background:#1e88e5;
+color:white;
+transform:scale(1.05);
+}
